@@ -129,6 +129,7 @@ nav ul {
   padding: 4rem 0rem;
   background: linear-gradient(#131c27, #663b34);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -305,7 +306,8 @@ button:focus {
   }
   .locations-head h3 {
     background: rgba(19, 28, 39, 0.9);
-    -webkit-text-fill-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .form-wrapper {
     width: 100%;
